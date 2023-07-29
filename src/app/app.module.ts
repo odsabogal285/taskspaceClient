@@ -9,6 +9,10 @@ import {AngularMaterialModule} from "./components/shared/angular-material/angula
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LoginComponent } from './components/login/login.component';
 import { HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { TaskListComponent } from './components/task-list/task-list.component';
+import { CardTaskListComponent } from './components/task-list/card-task-list/card-task-list.component';
+import { TaskComponent } from './components/task-list/card-task-list/task/task.component';
 
 
 
@@ -17,6 +21,10 @@ import { HttpClientModule} from '@angular/common/http';
     AppComponent,
     NavbarComponent,
     LoginComponent,
+    HomeComponent,
+    TaskListComponent,
+    CardTaskListComponent,
+    TaskComponent,
   ],
   imports: [
     BrowserModule,

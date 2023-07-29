@@ -1,0 +1,10 @@
+<div class="row d-flex justify-content-center" *ngIf="loading">
+  <div class="spinner-grow spinnerColor"></div>
+  <div class="spinner-grow spinnerColor"></div>
+  <div class="spinner-grow spinnerColor"></div>
+</div>
+<div class="row">
+  <div *ngFor="let tasklist of taskLists" class="col-lg-3 mt-2" style="margin: 30px">
+      <app-card-task-list [taskList]="tasklist"></app-card-task-list>
+  </div>
+</div>
